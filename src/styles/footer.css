@@ -1,0 +1,17 @@
+.footer {
+    background-color: var(--cadet-gray);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .footer a {
+    color: var(--wenge);
+    transition: color 0.3s;
+  }
+  
+  .footer a:hover {
+    color: var(--puce);
+  }
+  

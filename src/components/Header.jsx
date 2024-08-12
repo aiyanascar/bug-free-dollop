@@ -1,7 +1,8 @@
 import React from 'react';
+import Navigation from './Navigation';
 import './header.css';
 
-const Header = () => {
+const Header = ({ currentSection, setCurrentSection }) => {
   return (
     <header className="header">
       <div className="header-section icon">
@@ -11,7 +12,7 @@ const Header = () => {
         <h1>Your Name</h1>
       </div>
       <div className="header-section navigation">
-        <Navigation />
+        <Navigation currentSection={currentSection} setCurrentSection={setCurrentSection} />
       </div>
     </header>
   );
