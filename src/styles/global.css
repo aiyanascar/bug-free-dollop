@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    font-family: var(--font-primary);
+    background-color: var(--misty-rose);
+    color: var(--wenge);
+}
+
+a {
+    color: var(--puce);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
