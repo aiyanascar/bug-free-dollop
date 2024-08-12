@@ -12,16 +12,16 @@ import project2 from '../assets/images/project2.jpg';
 
 const projects = [
   {
-    title: 'Project One',
+    title: 'Note Taker',
     image: project1,
-    deployedLink: 'https://live-site-link1.com',
-    repoLink: 'https://github.com/username/repo1',
+    deployedLink: 'https://note-taker-m8lk.onrender.com',
+    repoLink: 'https://github.com/aiyanascar/note-taker',
   },
   {
-    title: 'Project Two',
+    title: 'Task Board',
     image: project2,
-    deployedLink: 'https://live-site-link2.com',
-    repoLink: 'https://github.com/username/repo2',
+    deployedLink: 'https://aiyanascar.github.io/task-board/',
+    repoLink: 'https://github.com/aiyanascar/task-board',
   },
   // Add more projects here
 ];
