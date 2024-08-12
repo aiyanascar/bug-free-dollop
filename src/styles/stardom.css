@@ -1,10 +1,9 @@
 @font-face {
-    font-family: 'Stardom-Regular';
+    font-family: 'Stardom';
     src: url('../assets/fonts/Stardom-Regular.woff2') format('woff2'),
          url('../assets/fonts/Stardom-Regular.woff') format('woff'),
          url('../assets/fonts/Stardom-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-display: swap;
+    font-weight: normal;
     font-style: normal;
   }
   

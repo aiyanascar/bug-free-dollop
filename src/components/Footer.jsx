@@ -1,6 +1,6 @@
 import React from 'react';
-import './footer.css';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'; // Install react-icons if you haven't already
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'; // Importing FontAwesome icons
+import '../styles/Footer.css';
 
 const Footer = () => {
   return (

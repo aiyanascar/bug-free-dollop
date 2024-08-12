@@ -1,14 +1,18 @@
 .footer {
-    background-color: var(--cadet-gray);
-    padding: 20px;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--french-gray);
+    position: relative;
+    width: 100%;
   }
   
+  
   .footer a {
+    margin: 0 15px;
     color: var(--wenge);
-    transition: color 0.3s;
+    font-size: 1.5rem;
   }
   
   .footer a:hover {
