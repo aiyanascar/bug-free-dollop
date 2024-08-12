@@ -1,14 +1,21 @@
 import React from 'react';
 import './navigation.css';
 
-const Navigation = () => {
+const Navigation = ({ currentSection, setCurrentSection }) => {
+  const sections = ['About Me', 'Portfolio', 'Contact', 'Resume'];
+
   return (
     <nav>
       <ul className="nav-list">
-        <li className="nav-item">About Me</li>
-        <li className="nav-item">Portfolio</li>
-        <li className="nav-item">Contact</li>
-        <li className="nav-item">Resume</li>
+        {sections.map((section) => (
+          <li
+            key={section}
+            className={`nav-item ${currentSection === section ? 'active' : ''}`}
+            onClick={() => setCurrentSection(section)}
+          >
+            {section}
+          </li>
+        ))}
       </ul>
     </nav>
   );

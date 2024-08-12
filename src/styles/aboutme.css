@@ -1,0 +1,26 @@
+.about-me {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .about-me h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: var(--wenge);
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--puce);
+  }
+  

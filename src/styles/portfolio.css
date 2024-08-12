@@ -1,0 +1,17 @@
+.portfolio {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .portfolio h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: var(--wenge);
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  

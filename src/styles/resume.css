@@ -1,0 +1,38 @@
+.resume {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .resume h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: var(--wenge);
+  }
+  
+  .resume a {
+    color: var(--puce);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .resume a:hover {
+    text-decoration: underline;
+  }
+  
+  .proficiencies-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .proficiencies-list li {
+    background-color: var(--french-gray);
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--cadet-gray);
+  }
+  

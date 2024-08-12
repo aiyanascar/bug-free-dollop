@@ -1,0 +1,19 @@
+{
+    "name": "my-portfolio",
+    "version": "1.0.0",
+    "description": "A portfolio project built with React",
+    "main": "index.js",
+    "scripts": {
+      "start": "vite",
+      "build": "vite build",
+      "serve": "vite preview"
+    },
+    "dependencies": {
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+      "vite": "^4.0.0"
+    }
+  }
+  
