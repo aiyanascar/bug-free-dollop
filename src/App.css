@@ -1,0 +1,13 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex-grow: 1;  /* Ensures main content fills the available space */
+    padding-top: 80px;  /* Space for the fixed header */
+    padding-bottom: 0;  /* Reduce padding to bring content closer to the footer */
+    min-height: calc(100vh - 140px); /* Adjust height to fill space between header and footer */
+  }
+  

@@ -1,6 +1,6 @@
 import React from 'react';
-import './resume.css';
-import resumePDF from '../assets/resume.pdf'; 
+import '../styles/resume.css';
+// import resumePDF from '../assets/resume.pdf'; 
 
 const proficiencies = [
   'HTML',
@@ -18,7 +18,8 @@ const Resume = () => {
     <section className="resume">
       <h2>Resume</h2>
       <p>
-        Download my <a href={resumePDF} target="_blank" rel="noopener noreferrer">Resume</a>
+        Download my resume here!
+        {/* Download my <a href={resumePDF} target="_blank" rel="noopener noreferrer">Resume</a> */}
       </p>
       <h3>Proficiencies</h3>
       <ul className="proficiencies-list">

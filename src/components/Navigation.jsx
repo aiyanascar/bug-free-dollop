@@ -1,5 +1,5 @@
 import React from 'react';
-import './navigation.css';
+import '../styles/navigation.css';
 
 const Navigation = ({ currentSection, setCurrentSection }) => {
   const sections = ['About Me', 'Portfolio', 'Contact', 'Resume'];

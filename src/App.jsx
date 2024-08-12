@@ -5,7 +5,8 @@ import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
-import './styles/app.css';
+import './styles/global.css';  // Global styles
+import './app.css';  // Specific styles for App component
 
 function App() {
   const [currentSection, setCurrentSection] = useState('About Me');
@@ -28,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <Header currentSection={currentSection} setCurrentSection={setCurrentSection} />
-      <main>
+      <main className="main-content">
         {renderSection()}
       </main>
       <Footer />

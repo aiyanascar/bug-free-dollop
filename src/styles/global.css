@@ -1,15 +1,25 @@
-body {
+@import url('./stardom.css');  /* Imports the Stardom font */
+
+/* Define your color variables */
+:root {
+  --french-gray: #D5C5C8;
+  --cadet-gray: #9DA3A4;
+  --wenge: #604D53;
+  --puce: #DB7F8E;
+  --misty-rose: #FFDBDA;
+}
+
+body, h1, h2, h3, h4, h5, h6, .header, .navigation {
+    font-family: 'Stardom', sans-serif;
     margin: 0;
-    font-family: var(--font-primary);
-    background-color: var(--misty-rose);
-    color: var(--wenge);
-}
-
-a {
-    color: var(--puce);
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main-content {
+    flex-grow: 1;  /* Ensures main content fills the available space */
+    padding-top: 80px;  /* Space for the fixed header */
+    padding-bottom: 0;  /* Reduce padding to bring content closer to the footer */
+    min-height: calc(100vh - 140px); /* Adjust height to fill space between header and footer */
+  }
+  
